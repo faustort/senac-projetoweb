@@ -1,9 +1,10 @@
 {
   "name": "projectweb",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/AngeloAugustoCSW/projectweb.git",
-  "author": "AngeloAugustoCSW <angelo.weimar@hotmail.com>",
+  "author": "Senac <fausto.toloi@prof.sc.senac.br>",
   "license": "MIT",
   "scripts": {
     "watch:p": "webpack --watch"
