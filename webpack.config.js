@@ -3,9 +3,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: {
-    appteste: "./src/js/index.js",
+    fausto: "./src/js/index.js",
   },
-  mode: "production",
+  mode: "development",
   output: {
     path: path.resolve(__dirname, "assets"),
     filename: "js/[name].js",

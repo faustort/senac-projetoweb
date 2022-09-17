@@ -1,2 +1,2 @@
 import "../scss/app.scss";
-console.log("deu certo mano 🗿")
+console.log("Hello World")
