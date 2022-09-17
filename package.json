@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/faustort/senac-projetoweb.git",
   "author": "Senac <fausto.toloi@prof.sc.senac.br>",
   "license": "MIT",
   "scripts": {
