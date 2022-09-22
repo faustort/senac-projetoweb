@@ -5,7 +5,7 @@ module.exports = {
   entry: {
     fausto: "./src/js/index.js",
   },
-  mode: "development",
+  mode: "production",
   output: {
     path: path.resolve(__dirname, "assets"),
     filename: "js/[name].js",
