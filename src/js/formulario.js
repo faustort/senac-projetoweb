@@ -1,11 +1,7 @@
 // criamos um função para iniciar o nosso modulo
 const initForm = (qualForm) => {
-    // busctou o elemento do DOM
-    //const formRequerido = document.getElementById(qualForm);
-    const formRequerido = qualForm;
     // buscamos os filhos dele (inputs)
-    const inputs = formRequerido.querySelectorAll("input");
-
+    const inputs = qualForm.querySelectorAll("input");
     // perguntamos se existe algum resultado
     if (inputs) {
         // se existir, percorremos o array de inputs
