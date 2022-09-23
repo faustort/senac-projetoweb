@@ -1,0 +1,23 @@
+.formulario {
+    label {
+        display: block;
+        border: 1px solid black;
+    }
+    input {
+        border: 3px solid black;
+        width: 100%;
+        &[type="submit"] {
+            width: 60px;
+            margin-top: 10px;
+        }
+        &:focus {
+            border-color: green;
+        }
+        &:hover {
+            border-width: 2px;
+        }
+        &:invalid {
+            border-color: red;
+        }
+    }
+}

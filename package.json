@@ -25,7 +25,6 @@
     "webpack-cli": "^4.10.0"
   },
   "browserslist": [
-    "> 0.015% in BR",
-    "not ie <= 7"
+    "> 0.5% in BR"
   ]
 }
