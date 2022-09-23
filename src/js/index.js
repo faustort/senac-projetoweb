@@ -1,4 +1,5 @@
 import "../scss/app.scss";
-import form from "./formulario";
+import init from "./formulario";
 console.log("Hello World");
 
+init("formCadastro");
