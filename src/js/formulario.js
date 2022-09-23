@@ -7,12 +7,15 @@ const initForm = (qualForm) => {
     const inputs = formRequerido.querySelectorAll("input");
 
     // perguntamos se existe algum resultado
-    if (inputs.lenght > 0) {
+    if (inputs) {
         // se existir, percorremos o array de inputs
         inputs.forEach((input) => {
             // exibir no console o valor de cada input
-            console.log(input)
+            console.log(input.value);
         });
+    } else {
+        // se não existir, exibimos uma mensagem no console
+        console.log("Não existe inputs neste formulário");
     }
 }
 
