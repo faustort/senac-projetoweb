@@ -21,9 +21,9 @@ const init = (qualForm) => {
     // busca o botão de submit para este formulário
     const submit = formRequerido.querySelector("input[type=submit]");
     // adiciona um evento de click no botão
-    submit.addEventListener("click", (evento) => {
+    submit.addEventListener("click", (e) => {
         // previne que o elemento, no caso o input submit, faça o que ele faz por padrão
-        evento.preventDefault();
+        e.preventDefault();
         // chama a função que criamos
         initForm(formRequerido);
     })

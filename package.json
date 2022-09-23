@@ -26,5 +26,8 @@
   },
   "browserslist": [
     "> 0.5% in BR"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
 }
