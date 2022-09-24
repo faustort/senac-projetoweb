@@ -1,6 +1,12 @@
+.bg-diferenciado{
+    background: rgb(234, 234, 234);
+    padding: 20px;
+}
 .formulario {
     label {
         display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
     }
 
     input {
@@ -24,7 +30,7 @@
         &:hover {}
 
         &:invalid {
-            box-shadow: 0px 10px 61px -15px rgba(255, 0, 0, 0.1);
+            box-shadow: 0px 0 6px -1px rgba(255, 0, 0, 0.683);
         }
     }
 }
