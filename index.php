@@ -1,16 +1,25 @@
 <?php
 include "header.php";
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col col-sm-12 col-md-6">
-            <img src="assets/images/download.jpg" alt="random image">
-        </div>
-        <div class="col col-sm-12 col-md-6">
-            <a href="//google.com" target="_blank" class="botao">Visite o Google</a>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-6">
+                <h1>Olá </h1>
+            </div>
+            <div class=" col-md-6">
+                <div class="noticias">
+                    <ul>
+                        <li>Noticia 1</li>
+                        <li>Noticia 2</li>
+                        
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <?php
-include "footer.php"; 
+include "footer.php";
 ?>

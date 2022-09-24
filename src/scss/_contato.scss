@@ -17,8 +17,9 @@
         padding: 5px;
 
         &[type="submit"] {
-            width: 60px;
             margin-top: 10px;
+            display: inline-block;
+            width: auto;
         }
 
         &:focus,

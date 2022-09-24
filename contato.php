@@ -1,13 +1,18 @@
 <?php
 include "header.php";
 ?>
+
 <div class="container">
     <div class="row">
         <div class="col-12">
             <h1>Fale conosco</h1>
             <div class="row">
                 <div class="col-md-4 bg-diferenciado">
-                    Endereço: Rua dos Bobos, 0
+                    <h3>Nosso endereço</h3>
+                    <p> Endereço: Rua dos Bobos, 0</p>
+                    <h3>Nossos contatos</h3>
+                    <p>Telefone: 44 99999 8888</p>
+                    <p>Telefone: 44 3025 8888</p>
                 </div>
                 <div class="col-md-8">
                     <form action="" class="formulario" id="formCadastro">
